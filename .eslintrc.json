@@ -30,6 +30,7 @@
         "no-extra-parens": ["error"],
         "space-in-parens": ["error", "never"],
         "comma-spacing": ["error",{ "before": false, "after": true }],
-        "object-property-newline": ["error"]
+        "object-property-newline": ["error"],
+        "object-curly-spacing": ["error", "always"]
     }
 }
