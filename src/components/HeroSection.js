@@ -1,6 +1,6 @@
 import React from 'react'
-import {Button} from './Button'
-import {Link} from 'react-router-dom'
+import { Button } from './Button'
+import { Link } from 'react-router-dom'
 import './HeroSection.css'
 
 function HeroSection({
@@ -22,8 +22,8 @@ function HeroSection({
       >
         <div className='container'>
           <div className='row home__hero-row'
-            style={{display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}
+            style={{ display: 'flex',
+              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
