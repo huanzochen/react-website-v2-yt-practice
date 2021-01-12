@@ -5,6 +5,7 @@ import { Button } from './Button'
 import { BsXDiamondFill } from 'react-icons/bs'
 import { GiCrystalize } from 'react-icons/gi'
 import { IconContext } from 'react-icons/lib'
+import './Pricing.css'
 
 function Pricing() {
   return (
@@ -15,7 +16,7 @@ function Pricing() {
       <div>
         <div className="pricing__section">
           <div className="pricing_wrapper">
-            <h1 className="pricing_heading"></h1>
+            <h1 className="pricing_heading"> Price List</h1>
             <div className="pricing__container">
               <Link to="/sign-up"
                 className='pricing__container-card'
