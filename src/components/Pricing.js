@@ -19,9 +19,9 @@ function Pricing() {
             <h1 className="pricing_heading"> Price List</h1>
             <div className="pricing__container">
               <Link to="/sign-up"
-                className='pricing__container-card'
+                className='pricing__container-card' 
               >
-                <div className="pricing__container_cardInfo">
+                <div className="pricing__container-cardInfo">
                   <div className="icon">
                     <FaFire/>
                   </div>
@@ -41,11 +41,11 @@ function Pricing() {
               <Link to="/sign-up"
                 className='pricing__container-card'
               >
-                <div className="pricing__container_cardInfo">
+                <div className="pricing__container-cardInfo">
                   <div className="icon">
                     <BsXDiamondFill/>
                   </div>
-                  <h3>Golld</h3>
+                  <h3>Gold</h3>
                   <h4>$29.99</h4>
                   <p>per month</p>
                   <ul className="pricing__container-features">
@@ -53,7 +53,7 @@ function Pricing() {
                     <li>5% Cash Back</li>
                     <li>Unlimited Spending</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor='primary'>
+                  <Button buttonSize="btn--wide" buttonColor='blue'>
                     Choose Plan
                   </Button>
                 </div>
@@ -61,7 +61,7 @@ function Pricing() {
               <Link to="/sign-up"
                 className='pricing__container-card'
               >
-                <div className="pricing__container_cardInfo">
+                <div className="pricing__container-cardInfo">
                   <div className="icon">
                     <GiCrystalize/>
                   </div>
