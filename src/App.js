@@ -7,10 +7,13 @@ import Products from './components/pages/Products/Products'
 import SignUp from './components/pages/SignUp/SignUp'
 import Footer from './components/pages/Footer/Footer'
 
+import Test from './components/pages/Test/Test'
+
 function App() {
   return (
     <Router>
       <Navbar></Navbar>
+      <Test></Test>
       <Switch>
         <Route path="/" exact component={Home} ></Route>
         <Route path="/services" exact component={Services} ></Route>
