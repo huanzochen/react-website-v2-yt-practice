@@ -1,109 +1,111 @@
- .home__hero-section {
-    color: #fff;
-    padding: 160px 0;
+.home__hero-section {
+  color: #fff;
+  padding: 160px 0;
 }
 
 .home__hero-row {
-    align-items: center;
+  align-items: center;
 }
 
 .row {
-    display: flex;
-    margin-right: -15px;
-    margin-bottom: -15px;
-    margin-left:-15px;
-    flex-wrap: wrap;
-    align-content: stretch;
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 
 .col {
-    margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    flex-grow: 1;
-    max-width: 50%;
-    flex-basis: 50%;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-grow: 1;
+  max-width: 50%;
+  flex-basis: 50%;
 }
 
 .home__hero-text-wrapper {
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
 }
 
 .top-line {
-    color: #f00946;
-    font-size: 16px;
-    /* 行高 */
-    line-height: 16px;
-    /* 於 CSS1 中出現, 字體的粗度 400 是正常 700 相當於 bold  */
-    font-weight: bold;
-    /* 改變字元間的寬度 */
-    letter-spacing: 1.4px;
-    /* 強制大寫 */
-    text-transform: uppercase;
-    margin-bottom:16px;
+  color: #f00946;
+  font-size: 16px;
+
+  /* 行高 */
+  line-height: 16px;
+
+  /* 於 CSS1 中出現, 字體的粗度 400 是正常 700 相當於 bold  */
+  font-weight: bold;
+
+  /* 改變字元間的寬度 */
+  letter-spacing: 1.4px;
+
+  /* 強制大寫 */
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .heading {
-    margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: #f7f8fa;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
 }
 
 .dark {
-    color: #1c2237;
+  color: #1c2237;
 }
 
 .darkBg {
-    background-color: #1c2237;
+  background-color: #1c2237;
 }
 
 .home__hero-subtitle {
-    /* 調整一句話的長度讓他變好看 */
-    max-width: 440px;
-    margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+  /* 調整一句話的長度讓他變好看 */
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .home__hero-img-wrapper {
-    max-width: 555px;
+  max-width: 555px;
 }
 
-
 .home__hero-img {
-    max-width: 95%;
-    padding-right:0;
-    margin: 0 0 0 10px;
+  max-width: 95%;
+  padding-right: 0;
+  margin: 0 0 0 10px;
 }
 
 img {
-    border: 0;
-    max-width: 50%;
-    /* 用來指定行內元素與表格單元格的對齊方式 */
-    vertical-align: middle;
-    display: inline-block;
+  border: 0;
+  max-width: 50%;
+
+  /* 用來指定行內元素與表格單元格的對齊方式 */
+  vertical-align: middle;
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
-    .container {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .home__hero-text-wrapper {
-        padding-bottom: 65px;   
-    }
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
 
-    .col {
-        max-width: 100%;
-        flex-basis: 100%;
-    }
-} 
-
-
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
