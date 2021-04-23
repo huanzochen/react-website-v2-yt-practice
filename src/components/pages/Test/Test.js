@@ -3,7 +3,7 @@ import './Test.css'
 
 function Test() {
   return (
-    <div class='test-container'>
+    <div className='test-container'>
       <div className='father-container-content-box'>
 sssddsfasd
       </div>
