@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
 import { Link } from 'react-router-dom'
-import './HeroSection.css'
 import styled from 'styled-components'
 import { device } from '../utils/device'
 
@@ -21,7 +20,7 @@ font-size: 16px;
 /* 行高 */
 line-height: 16px;
 /* 於 CSS1 中出現, 字體的粗度 400 是正常 700 相當於 bold  */
-font-weight: bold;
+font-weight: 700;
 /* 改變字元間的寬度 */
 letter-spacing: 1.4px;
 /* 強制大寫 */
@@ -79,7 +78,7 @@ const StyledContainer = styled.div`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 400;
   color: #f7f8fa;
 }
 
